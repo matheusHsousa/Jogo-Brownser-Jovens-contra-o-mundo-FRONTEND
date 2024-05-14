@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seu Jogo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="lobby">
+    <button onclick="criarSala()">Criar Sala</button>
+  </div>
+
+  <div id="entradaPagina">
+    <label for="codigoEntrada">Digite o código da sala:</label>
+    <input type="text" id="codigoEntrada" />
+    <button onclick="entrarComCodigo()">Entrar</button>
+  </div>
+
+  <div id="sala" style="display: none;">
+    <p>Código da Sala: <span id="codigoSala"></span></p>
+    <div id="listaUsuarios"></div>
+    <p>Presentes: <span id="contadorPresentes">0</span></p>
+  </div>
+
+  <script src="jogo.js"></script>
+</body>
+</html>

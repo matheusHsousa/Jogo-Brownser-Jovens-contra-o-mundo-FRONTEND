@@ -1,0 +1,21 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+#lobby,
+#sala {
+  display: block;
+  margin: 20px;
+}
+
+#sala {
+  display: none;
+  margin-top: 50px;
+}
+/* styles.css */
+#listaUsuarios {
+  margin-top: 10px;
+}
